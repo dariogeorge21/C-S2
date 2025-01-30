@@ -1,26 +1,30 @@
 #include<stdio.h>
 
 int main(){
-    int num1,num2,result;
+    float num1,num2,result;
     char operator;
     printf("Enter two numbers: ");
-    scanf("%d %d", &num1, &num2);
+    scanf("%f %f", &num1, &num2);
     printf("Enter operator: ");
-    scanf("%c",&operator);
+    scanf(" %c",&operator);
     
-    if (operator='+'){
-        result=num1+num2;
-    } else if (operator='-'){
-        result=num1-num2;
-    } else if (operator='*'){
-        result=num1*num2;
-    } else if (operator='/'){
-        result=num1/num2;
+    if (operator == '+') {
+        result = num1 + num2;
+        printf("Result: %.2lf\n", result);
+    } else if (operator == '-') {
+        result = num1 - num2;
+        printf("Result: %.2lf\n", result);
+    } else if (operator == '*') {
+        result = num1 * num2;
+        printf("Result: %.2lf\n", result);
+    } else if (operator == '/') {
+        if (num2 != 0)
+            printf("Result: %.2lf\n", num1 / num2);
+        else
+            printf("Error! Division by zero is not allowed.\n");
     } else {
-        printf("Wrong Input!!");
-        void* result=NULL;
+        printf("Invalid operator!\n");
     }
-    printf("\nResult: %d\n",result);
     
     return 0;
 }
