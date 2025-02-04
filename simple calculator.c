@@ -18,10 +18,11 @@ int main(){
         result = num1 * num2;
         printf("Result: %.2lf\n", result);
     } else if (operator == '/') {
-        if (num2 != 0)
+        if (num2 != 0) {
             printf("Result: %.2lf\n", num1 / num2);
-        else
+        }else{
             printf("Error! Division by zero is not allowed.\n");
+    } 
     } else {
         printf("Invalid operator!\n");
     }
