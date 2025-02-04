@@ -1,19 +1,19 @@
 #include<stdio.h>
-
+#include<math.h>
 int main(){
-    int n, sum = 0, arm_num, tempNum;
+    int n, arm_num=0, tempNum;
     printf("Enter an integer: ");
     scanf("%d", &n);
     tempNum = n;
-    int len;
+    int len=0;
     while(tempNum != 0){
         len++;
         tempNum /= 10;
     }
     tempNum = n;
     while(tempNum != 0){
-        arm_num = tempNum % 10;
-        sum += pow(arm_num, len);
+        int digit = tempNum % 10;
+        arm_num += pow(digit, len);
         tempNum /= 10;
     }
     if (arm_num==n){
