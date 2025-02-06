@@ -11,15 +11,16 @@ int main (){
     int key;
     printf("Enter the element to search: ");
     scanf("%d", &key);
-    int found = 0;
+    int index, found = 0;
     for(int i=0; i<n; i++){
         if(arr[i] == key){
             found = 1;
+            index=i;
             break;
         }
     }
     if(found){
-        printf("Element found in the array\n");
+        printf("Element found in the array at index %d\n",index);
     }
     else{
         printf("Element not found in the array\n");
