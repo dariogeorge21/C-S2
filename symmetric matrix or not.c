@@ -6,7 +6,7 @@ int main(){
     printf("Enter column: ");
     scanf("%d",&column);
     int arr[row][column];
-    printf("Enter elements: ");
+    printf("Enter elements: \n");
     for (int i=0;i<row;i++){
         printf("Enter row %d elements: ",i+1);
         for (int j=0;j<column;j++){
