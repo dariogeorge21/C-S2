@@ -6,12 +6,12 @@ int main() {
     printf("Enter the number: ");
     scanf("%d",&num);
     tempNum=num;
-    while (tempNum!=0){
+    while (tempNum!=0){ //length of the number
         length++;
         tempNum/=10;
     }
-    tempNum=num;
-    while (tempNum!=0){
+    tempNum=num; 
+    while (tempNum!=0){ //checking the armstrong
         int digit=tempNum%10;
         armNum+=(pow(digit,length));
         tempNum/=10;
