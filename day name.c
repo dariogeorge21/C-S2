@@ -4,7 +4,7 @@ int main(){
     int num;
     printf("Enter a number between 1 to 7: ");
     scanf("%d", &num);
-    switch(num){
+    switch(num){ //day starts from monday
         case 1:
             printf("Monday");
             break;
