@@ -17,6 +17,5 @@ int main(){
     } else {
         printf("FAILED!!\n");
     }
-    
     return 0;
 }
