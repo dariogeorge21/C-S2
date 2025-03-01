@@ -3,17 +3,25 @@
 
 int main(){
     int a,b,c;
-    printf("Enter value of x^2: ");
-    scanf ("%d",&a);
-    printf("Enter value of x: ");
-    scanf ("%d",&b);
-    printf("Enter constant: ");
-    scanf ("%d",&c);
-    float d= ((b*b)-((4*a*c)/(2*a)));
-
-    float root1=((-b)+pow(d,0.5));
-    float root2=((-b)-pow(d,0.5));
-    printf("Root1: %f\n",root1);
-    printf("Root2: %f\n",root2);
+    float discriminant,root1,root2;
+    printf("Enter the coefficents of the quadratic equation(ax^2+bx+c): ");
+    scanf("%d %d %d",&a,&b,&c);
+    discriminant=b*b-(4*a*c);
+    if (discriminant<0){
+        printf("Roots are complex!!\n");
+    }
+    else if (discriminant==0){
+        printf("Only one root exists!!\n");
+        root1=(-b/(2*a));
+        printf("%.2lf \n",root1);
+    }
+    else{
+        printf("The two real roots are: \n");
+        root1=(-b+sqrt(discriminant/(2*a)));
+        root2=(-b-sqrt(discriminant/(2*a)));
+        printf("%.2lf \n",root1);
+        printf("%.2lf \n",root2);
+    }
+    
     return 0;
 }
