@@ -1,9 +1,9 @@
 #include<stdio.h>
 
 int main(){
-    int a,b;
+    int num1,num2;
     printf("Enter two numbers: ");
-    scanf("%d %d", &a, &b);
-    a>b?printf("BIG NUMBER: %d\n",a):printf("BIG NUMBER: %d\n",b);
+    scanf("%d %d", &num1, &num2);
+    a>b?printf("BIG NUMBER: %d\n",num1):printf("BIG NUMBER: %d\n",num2);
     return 0;
 }
