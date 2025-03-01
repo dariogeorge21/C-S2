@@ -19,7 +19,7 @@ int main(){
         printf("Result: %.2lf\n", result);
     } else if (operator == '/') {
         if (num2 != 0) {
-            printf("Result: %.2lf\n", num1 / num2);
+            printf("Result: %.2lf\n", (float)num1 / num2);
         }else{
             printf("Error! Division by zero is not allowed.\n");
     } 
