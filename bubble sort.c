@@ -8,7 +8,7 @@ int main(){
     printf("Enter the elements: ");
     for (int i=0;i<limit;i++){
         scanf("%d",&arr[i]);
-    }printf("The array elements: \n");
+    }printf("The array elements are: \n");
     for (int i=0;i<limit;i++){
         printf("%d\t",arr[i]);
     }
