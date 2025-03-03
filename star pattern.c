@@ -10,15 +10,15 @@ int main(){
         }
         printf("\n");
     }
-
-    for (int i = n-1; i >= 1; i--){ //reverse floyd pattern
-        for(int j = 1; j <= i; j++){
+    printf("Next Pattern\n");
+    for (int i = 0; i < n; i++){ //reverse floyd pattern
+        for(int j = 0; j <= n-i; j++){
             printf("* ");
         }
         printf("\n");
     }
-
-    for (int i = 1; i <= n; i++){ //reverse star pattern
+    printf("Next Pattern\n");
+    for (int i = 0; i <= n; i++){ //reverse star pattern
         for(int j = n; j >= i; j--){
             printf("* ");
         }
