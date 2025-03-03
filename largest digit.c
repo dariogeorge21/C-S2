@@ -1,15 +1,17 @@
 #include<stdio.h>
 
 int main(){
-    int num, max = 0;
-    printf("Enter an integer: ");
+    int num,largest=0;
+    printf("Enter a number: ");
     scanf("%d", &num);
-    while(num != 0){
-        if (num % 10 > max){
-            max = num % 10;
+
+
+    while (num!=0){
+        int digit = num%10;
+        if (digit>largest){
+            largest=digit;
         }
-        num /= 10;
+        num/=10;
     }
-    printf("The largest digit is %d.\n", max);
-    return 0;
+    printf("%d",largest);
 }
