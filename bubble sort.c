@@ -13,7 +13,7 @@ int main(){
         printf("%d\t",arr[i]);
     }
     for (int i=0;i<limit;i++){
-        for (int j=0;j<(limit-i);j++){
+        for (int j=0;j<(limit-i-1);j++){
             if (arr[j]>arr[j+1]){
                 int temp=arr[j+1];
                 arr[j+1]=arr[j];
