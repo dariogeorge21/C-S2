@@ -27,9 +27,15 @@ int main(){
                 scanf("%d", &matrix2[i][j]);
             }
         }
+
+        for(int i = 0; i < row1; i++){
+            for(int j = 0; j < column2; j++){
+                result[i][j] = 0;
+            }
+        }
+
         for(int i = 0; i < row1; i++){
             for(int j=0; j<column2; j++){
-                int sum = 0;
                 for(int k = 0; k < column1; k++){
                     sum = matrix1[i][k] * matrix2[k][j];
                 } result[i][j] = sum;
