@@ -22,7 +22,7 @@ int main(){
         printf("Enter author of book %d:",i+1);
         scanf("%s",books[i],author);
         printf("Enter price of book %d:",i+1);
-        scanf("%d",books[i].price);
+        scanf("%d",&books[i].price);
     }
     printf("\nThe book details: \n");
     printArray(books,total);
