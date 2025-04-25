@@ -20,7 +20,7 @@ int main(){
         printf("Enter title of book %d:",i+1);
         scanf("%s",books[i].title);
         printf("Enter author of book %d:",i+1);
-        scanf("%s",books[i],author);
+        scanf("%s",books[i].author);
         printf("Enter price of book %d:",i+1);
         scanf("%d",&books[i].price);
     }
