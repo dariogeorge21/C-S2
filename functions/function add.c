@@ -4,15 +4,19 @@ int add(int, int);
 
 int main(){
     int num1, num2, sum;
-    sum=add(num1, num2);
-    printf("sum is %d", sum);
+    printf("Enter two numbers: ");
+    scanf("%d %d", &num1, &num2);
+    sum = add(num1, num2);
+    printf("Sum is %d\n", sum);
     return 0;
 }
 
 int add(int a, int b){
-    int sum;
-    printf("Enter two numbers: ");
-    scanf("%d %d", &a, &b);
-    sum=a+b;
-    return sum;
+    return a + b;
 }
+
+/*
+Output:
+Enter two numbers: 5 3
+Sum is 8
+*/
