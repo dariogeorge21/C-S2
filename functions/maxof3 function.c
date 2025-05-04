@@ -21,3 +21,8 @@ int max(int a,int b, int c){
         return c;
     }
 }
+
+/* Sample Output:
+Enter three numbers: 10 20 30
+Maximum of three numbers is 30
+*/
