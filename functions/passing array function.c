@@ -16,3 +16,7 @@ int pass(int x[],int size){
     }
     return sum;
 }
+
+/* Sample Output:
+sum of array is 15
+*/
