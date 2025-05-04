@@ -18,3 +18,7 @@ int max(int arr[],int n){
     }
     return max;
 }
+
+/* Sample Output:
+The maximum element in the array is 10
+*/
