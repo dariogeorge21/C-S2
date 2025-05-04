@@ -12,6 +12,7 @@ int main(){
     for (int i=0;i<5;i++){
         printf("%d\t",arr[i]);
     }
+    return 0;
 }
 
 void duble(int x[],int size){
@@ -19,3 +20,10 @@ void duble(int x[],int size){
         x[i]=x[i]*2;
     }
 }
+
+/*
+Output:
+1       2       3       4       5
+After DOubling function:
+2       4       6       8       10
+*/
