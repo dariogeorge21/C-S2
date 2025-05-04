@@ -17,3 +17,8 @@ int factorial(int x){
     }
     return fact;
 }
+
+/* Sample Output:
+Enter a number: 5
+Factorial of 5 = 120
+*/
