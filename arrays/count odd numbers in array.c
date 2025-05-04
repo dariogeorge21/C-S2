@@ -18,3 +18,10 @@ int main(){
     printf("The number of odd numbers in the array is: %d", count);
     return 0;
 }
+
+/*
+Output:
+Enter the number of elements in the array: 5
+Enter the elements of the array: 1 2 3 4 5
+The number of odd numbers in the array is: 3
+*/

@@ -36,3 +36,18 @@ int main(){
     }
     return 0;
 }
+
+/*
+Output:
+Enter the number of rows: 2
+Enter the number of columns: 2
+Enter the elements of the first matrix: 
+Enter the elements of row 1: 1 2
+Enter the elements of row 2: 3 4
+Enter the elements of the second matrix: 
+Enter the elements of row 1: 5 6
+Enter the elements of row 2: 7 8
+The sum of the matrices is: 
+6 8
+10 12
+*/

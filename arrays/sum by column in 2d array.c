@@ -28,3 +28,19 @@ int main(){
     }
     return 0;
 }
+
+/*
+Output:
+Enter the number of rows and columns: 3 3
+Enter the elements of the array: 
+Enter the elements of row 1: 1 2 3
+Enter the elements of row 2: 4 5 6
+Enter the elements of row 3: 7 8 9
+The array is: 
+1 2 3
+4 5 6
+7 8 9
+Sum of column 1 is 12
+Sum of column 2 is 15
+Sum of column 3 is 18
+*/

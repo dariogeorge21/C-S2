@@ -26,3 +26,13 @@ int main(){
     }
     return 0;
 }
+
+/*
+Output:
+Enter the limit of array: 5
+Enter the elements: 64 34 25 12 22
+The array elements are: 
+64      34      25      12      22
+The sorted array is: 
+12      22      25      34      64
+*/

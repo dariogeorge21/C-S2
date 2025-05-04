@@ -18,3 +18,11 @@ int main(){
     }
     return 0;
 }
+
+/*
+Output:
+Enter the size of array: 5
+Enter the elements of array: 1 2 3 4 5
+Enter the element to be inserted: 6
+The array after insertion is: 1 2 3 4 5 6
+*/

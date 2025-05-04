@@ -24,3 +24,11 @@ int main(){
     printf("The largest element at index %d in the array is: %d\n",indexL, large);
     return 0;
 }
+
+/*
+Output:
+Enter the size of the array: 5
+Enter the elements of the array: 23 12 45 7 89
+The smallest element at index 3 in the array is: 7
+The largest element at index 4 in the array is: 89
+*/

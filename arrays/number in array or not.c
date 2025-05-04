@@ -26,3 +26,17 @@ int main(){
     }
     return 0;
 }
+
+/*
+Output 1 (Number found):
+Enter the number of elements in the array: 5
+Enter the elements of the array: 10 20 30 40 50
+Enter the number to be searched: 30
+The number is present at index 2
+
+Output 2 (Number not found):
+Enter the number of elements in the array: 5
+Enter the elements of the array: 10 20 30 40 50
+Enter the number to be searched: 25
+The number is not present in the array
+*/

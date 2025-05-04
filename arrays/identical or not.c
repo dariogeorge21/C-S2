@@ -35,3 +35,21 @@ int main(){
     }
     return 0;
 }
+
+/*
+Output 1 (Identity Matrix):
+Enter the number of rows and columns: 3
+Enter the elements of the matrix: 
+Enter the elements of row 1: 1 0 0
+Enter the elements of row 2: 0 1 0
+Enter the elements of row 3: 0 0 1
+Identity Matrix!!
+
+Output 2 (Not Identity Matrix):
+Enter the number of rows and columns: 3
+Enter the elements of the matrix: 
+Enter the elements of row 1: 1 0 1
+Enter the elements of row 2: 0 1 0
+Enter the elements of row 3: 0 0 1
+Not Identity Matrix!!
+*/
