@@ -16,7 +16,8 @@ int scope(int x){
     return 0;
 }
 
-// Output:
-// The value of x is 10
-// The value of x is 20
-// The value of x is 10
+/* Sample Output:
+The value of x is 10
+The value of x is 20
+The value of x is 10
+*/
