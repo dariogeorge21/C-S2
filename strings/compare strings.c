@@ -1,29 +1,37 @@
 #include<stdio.h>
 #include<string.h>
 
-/* Sample Output:
-Enter first string: hello
-Enter second string: hello
+int main(){
+    char str1[100];
+    char str2[100];
+    printf("Enter string1: "); 
+    fgets(str1,sizeof(str1),stdin);
+    printf("Enter string2: ");
+    fgets(str2,sizeof(str2),stdin);
+
+    if(strcmp(str1,str2)==0){
+        printf("The strings are equal");
+    }
+    else if (strcmp(str1,str2)>0){
+        printf("First name has ASCII greater value!!");
+    }
+    else if (strcmp(str1,str2)<0){
+        printf("Second name has ASCII greater value!!");
+    }
+    return 0;
+}
+
+/*
+Example output:
+Enter string1: hello
+Enter string2: hello
 The strings are equal
 
-Enter first string: hello
-Enter second string: world
-The strings are not equal
+Enter string1: zebra
+Enter string2: apple
+First name is greater value!!
 
-Note: String comparison is case-sensitive
+Enter string1: apple
+Enter string2: zebra
+Second name is greater value!!
 */
-
-int main(){
-    char str1[100],str2[100],str3[200];
-    printf("Enter first string: ");
-    fgets(str1,100,stdin);
-    printf("Enter second string: ");
-    fgets(str2,100,stdin);
-    for (int i=0; i<strlen(str1); i++){
-        if (str1[i]!=str2[i]){
-            printf("Strings are not equal");
-            return 0;
-        }
-    }
-    printf("Strings are equal");
-}
