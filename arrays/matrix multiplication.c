@@ -56,23 +56,32 @@ int main(){
     return 0; 
 }
 
-/*
-Output:
-Enter the number of row in matrix 1: 2
-Enter the number of column in matrix 1: 2
-Enter the number of row in matrix 2: 2
-Enter the number of column in matrix 2: 2
-Enter the elements of matrix 1:
-Enter the elements of row 1:
- 1 2
-Enter the elements of row 2:
- 3 4
-Enter the elements of matrix 2:
-Enter the elements of row 1:
- 5 6
-Enter the elements of row 2:
- 7 8
-The result of matrix multiplication is:
-19      22
-43      50
+/* Sample Output:
+Enter the number of rows for first matrix: 2
+Enter the number of columns for first matrix: 3
+Enter the number of rows for second matrix: 3
+Enter the number of columns for second matrix: 2
+
+Enter elements of first matrix:
+Enter element [0][0]: 1
+Enter element [0][1]: 2
+Enter element [0][2]: 3
+Enter element [1][0]: 4
+Enter element [1][1]: 5
+Enter element [1][2]: 6
+
+Enter elements of second matrix:
+Enter element [0][0]: 7
+Enter element [0][1]: 8
+Enter element [1][0]: 9
+Enter element [1][1]: 10
+Enter element [2][0]: 11
+Enter element [2][1]: 12
+
+Result of matrix multiplication:
+58 64
+139 154
+
+Note: Matrix multiplication is possible only when number of columns in first matrix
+equals number of rows in second matrix.
 */

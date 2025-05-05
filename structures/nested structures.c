@@ -16,6 +16,27 @@ struct student{
 
 void printStruct(struct student[],int);
 
+/* Sample Output:
+Enter Employee Details:
+Enter name: John Smith
+Enter ID: 1001
+Enter department: IT
+Enter joining date (dd mm yyyy): 15 03 2023
+Enter salary: 50000
+
+Employee Information:
+Name: John Smith
+ID: 1001
+Department: IT
+Join Date: 15/3/2023
+Salary: 50000.00
+
+Note: This program demonstrates:
+- Nested structures (date structure within employee structure)
+- Reading complex data with multiple scanf calls
+- Formatted printing of structured data
+*/
+
 int main(){
     int limit;
     printf("Enter the number of students: ");

@@ -11,3 +11,9 @@ int main() {
     printf("Sum is: %d\n",sum);
     return 0;
 }
+/* Sample Output:
+Enter limit: 5
+Sum is: 15
+
+Note: For n=5, sum = 1 + 2 + 3 + 4 + 5 = 15
+*/

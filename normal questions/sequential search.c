@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 int main (){
     int n;
     printf("Enter the size of the array: ");
@@ -27,3 +28,15 @@ int main (){
     }
     return 0;
 }
+
+/* Sample Output:
+Enter the size of the array: 5
+Enter the elements of the array: 10 20 30 40 50
+Enter the element to search: 30
+Element found in the array at index 2
+
+Enter the size of the array: 5
+Enter the elements of the array: 10 20 30 40 50
+Enter the element to search: 60
+Element not found in the array
+*/

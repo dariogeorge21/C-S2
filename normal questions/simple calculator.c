@@ -36,3 +36,20 @@ int main(){
         printf("Invalid operator!\n");
     }return 0;
 }
+/* Sample Output:
+Enter two numbers: 10 5
+Enter operator: +
+Result: 15.00
+
+Enter two numbers: 10 5
+Enter operator: /
+Result: 2.00
+
+Enter two numbers: 10 0
+Enter operator: /
+Error! Division by zero is not allowed.
+
+Enter two numbers: 10 5
+Enter operator: *
+Result: 50.00
+*/

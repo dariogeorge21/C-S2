@@ -1,6 +1,28 @@
 #include<stdio.h>
 #include<math.h>
 
+/* Sample Output:
+Enter coefficients a, b and c: 1 -5 6
+Roots are real and different.
+Root 1 = 3.00
+Root 2 = 2.00
+
+Enter coefficients a, b and c: 1 2 1
+Roots are real and equal.
+Root 1 = Root 2 = -1.00
+
+Enter coefficients a, b and c: 1 1 1
+Roots are complex and different.
+Root 1 = -0.50 + 0.87i
+Root 2 = -0.50 - 0.87i
+
+Note: Program solves quadratic equation ax² + bx + c = 0
+Uses discriminant (b² - 4ac) to determine nature of roots:
+- If > 0: Real and different roots
+- If = 0: Real and equal roots
+- If < 0: Complex roots
+*/
+
 int main(){
     int a,b,c;
     float discriminant,root1,root2;

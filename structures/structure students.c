@@ -1,6 +1,39 @@
 #include<stdio.h>
 #include<string.h>
 
+/* Sample Output:
+Enter number of students: 2
+
+Enter details for student 1:
+Enter name: John
+Enter roll number: 101
+Enter mark1: 85
+Enter mark2: 90
+Enter mark3: 95
+
+Enter details for student 2:
+Enter name: Alice
+Enter roll number: 102
+Enter mark1: 88
+Enter mark2: 92
+Enter mark3: 87
+
+Student Details:
+Name: John
+Roll Number: 101
+Total Marks: 270
+Average: 90.00
+Grade: A
+
+Name: Alice
+Roll Number: 102
+Total Marks: 267
+Average: 89.00
+Grade: A
+
+Note: Demonstrates structure usage with arrays and grade calculation
+*/
+
 struct student{
     char name[20];
     int roll;

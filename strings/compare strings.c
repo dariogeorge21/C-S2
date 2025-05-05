@@ -1,6 +1,18 @@
 #include<stdio.h>
 #include<string.h>
 
+/* Sample Output:
+Enter first string: hello
+Enter second string: hello
+The strings are equal
+
+Enter first string: hello
+Enter second string: world
+The strings are not equal
+
+Note: String comparison is case-sensitive
+*/
+
 int main(){
     char str1[100],str2[100],str3[200];
     printf("Enter first string: ");

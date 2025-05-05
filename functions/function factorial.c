@@ -20,5 +20,13 @@ int factorial(int x){
 
 /* Sample Output:
 Enter a number: 5
-Factorial of 5 = 120
+Factorial of 5 is: 120
+
+Enter a number: 0
+Factorial of 0 is: 1
+
+Note: Factorial is calculated using a function that demonstrates:
+- Function declaration
+- Parameter passing
+- Return value
 */
