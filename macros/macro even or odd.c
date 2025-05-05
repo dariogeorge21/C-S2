@@ -9,3 +9,12 @@ int main(){
     OddEven(num);
     return 0;
 }
+
+/*
+Example Output:
+Enter a number: 5
+odd
+
+Enter a number: 10
+even
+*/
