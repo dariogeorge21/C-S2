@@ -1,5 +1,17 @@
 #include<stdio.h>
 
+/* Sample Output:
+Enter a string: Hello world! How are you?
+Number of words: 5
+
+Enter a string: This    has   multiple    spaces
+Number of words: 4
+
+Note: Program counts words by:
+- Identifying word boundaries (spaces)
+- Handling multiple consecutive spaces
+- Considering punctuation as word separators
+*/
 
 int main(){
     char str[100];
