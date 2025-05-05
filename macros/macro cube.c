@@ -10,3 +10,8 @@ int main(){
     return 0;
 }
 
+/* Sample Output:
+Enter a number: 5
+Cube of 5 is 125
+*/
+
