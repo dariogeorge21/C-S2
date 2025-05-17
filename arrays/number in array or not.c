@@ -15,7 +15,8 @@ int main(){
     for(int i=0;i<n;i++){
         if(arr[i]==x){
         flag=1;
-        index=i;  
+        index=i;
+        break;  
         }
     }
     if (flag==1){
