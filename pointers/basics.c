@@ -1,8 +1,11 @@
 #include<stdio.h>
 
 int main(){
-    int a=4;
-    int *ptr=&a;
-    printf("Pointer Value: %d",*ptr);
+    int a=10;
+    int* ptr=&a;
+    int** ptr1=&ptr;
+    int* value=*(ptr1);
+    int value1=*(value);
+    printf("%u\n",value1);
     return 0;
 }
