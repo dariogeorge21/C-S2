@@ -11,7 +11,7 @@ int main(){
     }
     printf("Enter the element to be inserted: ");
     scanf("%d",&x);
-    arr[n]=x;
+    arr[n]=x; //element at nth (last) position
     printf("The array after insertion is: ");
     for(int i=0;i<=n;i++){
         printf("%d ",arr[i]);
