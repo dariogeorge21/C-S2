@@ -28,3 +28,8 @@ int main(){
     }
     return 0;
 }
+
+// This program finds all Armstrong numbers between 1 and a given limit.
+//Output:
+// Enter the limit: 1000
+// Armstrong numbers between 1 and 1000 are: 1 2 3 4 5 6 7 8 9 153 370 371 407
