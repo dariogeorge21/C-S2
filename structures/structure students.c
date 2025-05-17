@@ -53,7 +53,7 @@ int main(){
         scanf("%d",&students[i].marks);
         getchar();//clear buffer
     }
-    printf("\nStudent Details:\n")
+    printf("\nStudent Details:\n");
     printStruct(students,5);
     return 0;
 }

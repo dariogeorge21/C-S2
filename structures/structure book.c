@@ -50,7 +50,7 @@ void printArray(struct book books[],int total){
 // Enter title: Database
 // Enter author: Smith
 // Enter price: 600
----
+
 // Book Details:
 // Book 1:
 // Title: Programming
