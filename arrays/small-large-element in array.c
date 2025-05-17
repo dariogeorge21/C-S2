@@ -10,7 +10,7 @@ int main(){
         scanf("%d", &arr[i]);
     }
     int small = arr[0], large = arr[0],indexL,indexS;
-    for(int i=1; i<n; i++){
+    for(int i=1; i<n; i++){//i=1 because already assumed that i=0 is large/small
         if(arr[i] < small){
             small = arr[i];
             indexS=i;
