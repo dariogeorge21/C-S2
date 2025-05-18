@@ -23,7 +23,7 @@ int main(){
     }
     printf("\nThe sorted array:\n");
     for(int i=0;i<limit;i++){
-        printf("%d ",arr[i]);
+        printf("%d  ",arr[i]);
     }
 }
 
