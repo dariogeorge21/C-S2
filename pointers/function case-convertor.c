@@ -2,12 +2,13 @@
 
 void converter(char *str);
 
-void main(){
+int main(){
     char str[100];
     printf("Enter a string: ");
     fgets(str,100,stdin);
     converter(str);
-    printf("The string is: %s", str);
+    // printf("The string is: %s", str);
+    puts(str);
     return 0;
 }
 
